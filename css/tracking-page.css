@@ -1,0 +1,72 @@
+
+.konfirmasi-page {
+  display: table;
+  max-width: 450px;
+  width: 90%;
+  margin: auto;
+  padding:  40px;
+}
+.konfirmasi-page .title-konfirmasi {
+  display: block;
+  margin-bottom: 30px;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-align: center;
+}
+.konfirmasi-page ul,
+.konfirmasi-page li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.konfirmasi-page ul {
+  width: 100%;
+  margin: 20px 0;
+}
+.konfirmasi-page ul li {
+  display: block;
+  margin-bottom: 10px;
+}
+.konfirmasi-page ul li .row {
+  font-style: normal;
+  display: block;
+  padding: 3px 10px;
+  border: 1px solid #999;
+  margin-top: 3px;
+}
+.konfirmasi-page ul li .row select,
+.konfirmasi-page ul li .row input {
+  border: none;
+  width: 100%;
+  font-size: 14px;
+  outline: none;
+  padding: 7px 0;
+  border-bottom: 2px solid transparent;
+}
+.konfirmasi-page ul li .row:nth-child(2) {
+  text-align: right;
+}
+.konfirmasi-page ul li .button {
+  border: none;
+  width: 100% !important;
+  padding: 15px 0;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff;
+  text-align: center;
+  background: #f82248;
+  border-color: #f82248;
+  cursor: pointer;
+  width: 100%;
+  border-bottom: none;
+  -webkit-transition: all 0.2s ease-out 0s;
+  -moz-transition: all 0.2s ease-out 0s;
+  -ms-transition: all 0.2s ease-out 0s;
+  -o-transition: all 0.2s ease-out 0s;
+  transition: all 0.2s ease-out 0s;
+}
+.konfirmasi-page ul li .button:hover {
+  background: #333;
+  border-color: #333;
